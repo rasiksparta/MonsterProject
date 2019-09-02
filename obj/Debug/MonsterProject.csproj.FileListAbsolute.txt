@@ -1,0 +1,7 @@
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\MonsterProject\MonsterProject\bin\Debug\MonsterProject.exe.config
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\MonsterProject\MonsterProject\bin\Debug\MonsterProject.exe
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\MonsterProject\MonsterProject\bin\Debug\MonsterProject.pdb
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\MonsterProject\MonsterProject\obj\Debug\MonsterProject.csprojAssemblyReference.cache
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\MonsterProject\MonsterProject\obj\Debug\MonsterProject.csproj.CoreCompileInputs.cache
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\MonsterProject\MonsterProject\obj\Debug\MonsterProject.exe
+C:\Users\Rasik Rana\Desktop\csharp\weekfour\dayone\MonsterProject\MonsterProject\obj\Debug\MonsterProject.pdb
