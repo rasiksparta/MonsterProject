@@ -11,6 +11,7 @@ namespace MonsterProject
         static void Main(string[] args)
         {
             Monster monsterA = new Monster("m1", 3, new Eye(), new Hair(), new SpecialAbility());
+            //Monster monsterA;
             monsterA.Jump();
             monsterA.Scare();
             Console.Read();
@@ -59,15 +60,51 @@ namespace MonsterProject
         }
 
     }
-
+   
     class MonsterCohort
     {
-       
-        public MonsterCohort()
-        {
+        private string subject;
+        private DateTime startDate;
+        private List<Monster> listOfMonsters;
 
+
+        /**
+         * Constructor
+         * @param subject, the subject of the cohort
+         * @param startDate, the start date of the cohort
+         */
+        public MonsterCohort(string subject, DateTime startDate)
+        {
+            this.subject = subject;
+            this.startDate = startDate;
+            listOfMonsters = new List<Monster>();
+        }
+        /**
+         * Adds monster to the cohort
+         * @param monster, the monster to be added
+         */
+        public void AddStudent(Monster monster)
+        {
+            listOfMonsters.Add(monster);
+            Console.WriteLine("Monster added");
         }
 
+        public List<Monster> GetListOfStudents()
+        {
+            return this.listOfMonsters;
+        }
+
+        /**
+         * Import an external list of monsters 
+         * @param monsterCohort, the monster cohort to import the list from
+         */
+        public void ImportStudents(MonsterCohort monsterCohort)
+        {
+            foreach (Monster monster in monsterCohort.GetListOfStudents())
+            {
+                AddStudent(monster);
+            }
+        }
     }
     
     class Eye
